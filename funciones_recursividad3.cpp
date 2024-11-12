@@ -13,7 +13,7 @@ int main(){
 	cout<<"digite la base: "; cin>>base;
 	cout<<"digite el exponente: "; cin>>exponente;	
 	
-	cout<<"\npotencia de"<<base<<"elevado a"<<exponente<<" es:"<<potencia(base,exponente)<<endl;
+	cout<<"\npotencia de "<<base<<" elevado a"<<exponente<<" es:"<<potencia(base,exponente)<<endl;
 	getch();
 	return 0;
 }
@@ -25,10 +25,11 @@ int potencia(int x,int y){
 		
 	}
 	else{
-		pot = x *potencia(x,y-1);
+		pot = x * potencia(x,y-1);
 	}
 	cout<<pot<<endl;
 	
+	getch();	
 	return pot;
 	
 	
